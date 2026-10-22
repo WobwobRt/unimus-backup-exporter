@@ -1,7 +1,7 @@
 FROM alpine:3.24
 
-ARG SUPERCRONIC_VERSION=v0.2.50
-ARG SUPERCRONIC_SHA1SUM=0795da10bf6303e9680a2c2bd8dd6b9aa33ebda2
+ARG SUPERCRONIC_VERSION=v0.2.51
+ARG SUPERCRONIC_SHA1SUM=1692066e350a88ff4d7d6474fe3c7a6c41ec5e89
 
 RUN apk add --no-cache bash curl jq git openssh-client coreutils tzdata \
     && curl -fsSLo /usr/local/bin/supercronic \
